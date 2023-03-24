@@ -18,6 +18,12 @@ body{
     color: white;
 }
 
+/**** WIDTH *****/
+
+.w15{
+    width: 15%;
+}
+
 .w100{
     width: 100%;
 }
@@ -34,6 +40,10 @@ body{
 
 .flexWrap{
     flex-wrap: wrap;
+}
+
+.alignCenter{
+    align-items: center;
 }
 
 .justifyCenter{
@@ -68,14 +78,13 @@ main{
     height: calc(100vh - 90px);
 }
 
+/********* SIDEBAR XS ********/
+
 #sideBar{
     width: 50px;
     background-color: black;
 }
 
-#sideBar > div{
-    padding: 10px;
-}
 
 
 
@@ -91,6 +100,25 @@ main{
     border-radius: 50%;
 }
 
+/****** SIDEBAR OVER XS ********/
+
+#sideBarOverXS > img{
+    width: 80%;
+    padding-bottom: 1rem;
+}
+#sideBarOverXS div{
+    padding-bottom: 10px;
+}
+
+.sideBarTitles{
+    padding-left: 10px;
+}
+
+#sideBar > div{
+    padding: 15px;
+}
+
+/********MAIN CONTENT ******/
 #scatolaMain{
     width: calc(100% - 50px);
 }
@@ -184,9 +212,12 @@ footer{
         width: calc(100% / 3);
     } 
     
-    #sideBar div{
+    #sideBarXS {
         display: none;
     }
+
+    
+   
 }
 
 

@@ -6,23 +6,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify Web</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
    <main>
     <div class="flex h100">
-        <nav id="sideBar" class="colorWhite h100 flex justifySB flexCol">
-            <div>
-                <img class="paddingB05rem" src="./img/logo-small.svg" alt="">
-                <img class="paddingB05rem" src="./img/home.svg" alt="">
-                <img class="paddingB05rem" src="./img/search.svg" alt="">
-                <img class="paddingB05rem" src="./img/libreria.svg" alt="">
-            </div>
-            <div>
-                <img class="paddingB05rem" src="./img/download.svg" alt="">
-                <div id="boxProfile">
-                    <img src="./img/profile.svg" alt="">
+        <nav id="sideBar" class="colorWhite h100">
+            <div id="sideBarXS" class="flex justifySB flexCol h100">
+                <div>
+                    <img class="paddingB05rem" src="./img/logo-small.svg" alt="">
+                    <img class="paddingB05rem" src="./img/home.svg" alt="">
+                    <img class="paddingB05rem" src="./img/search.svg" alt="">
+                    <img class="paddingB05rem" src="./img/libreria.svg" alt="">
                 </div>
-                
+                <div>
+                    <img class="paddingB05rem" src="./img/download.svg" alt="">
+                    <div id="boxProfile">
+                        <img src="./img/profile.svg" alt="">
+                    </div>
+                    
+                </div>
+            </div>
+            <div id="sideBarOverXS">
+                <img src="./img/logo.svg" alt="">
+                <div>
+                 <div class="flex alignCenter">
+                    <img class="w15" src="./img/home.svg" alt="">
+                    <h5 class="sideBarTitles">Home</h5>
+                 </div>
+                 <div class="flex alignCenter">
+                    <img class="w15" src="./img/search.svg" alt="">
+                    <h5 class="sideBarTitles">Cerca</h5>
+                 </div>
+                 <div class="flex alignCenter">
+                    <img class="w15" src="./img/libreria.svg" alt="">
+                    <h5 class="sideBarTitles">La tua libreria</h5>
+                 </div>
+        
+                </div>
+
+                <div>
+                    <h4>PLAYLIST</h4>
+                    <div class="flex alignCenter">
+                        <i class="fa-regular fa-square-plus"></i>
+                        <h5 class="sideBarTitles">Crea Playlist</h5>
+                     </div>
+                </div>
+
             </div>
             
         </nav>
