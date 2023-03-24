@@ -1,0 +1,123 @@
+/*****GENERAL******/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+/****** FLEX *****/
+
+.flex{
+    display: flex;
+}
+
+.h100{
+    height: 100%;
+}
+
+.colorWhite{
+    color: white;
+}
+
+
+/* ****** XS - MOBILE FIRST ******/ 
+
+/* GENERIC UI */
+
+
+/* HEADER */
+
+
+/* MAIN CONTENT */
+
+main{
+    height: calc(100vh - 90px);
+}
+
+#sideBar{
+    width: 50px;
+    background-color: black;
+}
+
+#scatolaMain{
+    width: calc(100% - 50px);
+}
+
+#upgradeButtonBox{
+    position: fixed;
+    width: 100%;
+    height: 90px;
+    background-color: #080b1277;
+}
+
+#mainContent{
+    width: 100%;
+    overflow: auto;
+    padding-top: 90px;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: #282828;
+    height: 90px;
+}
+
+
+
+/****** SM - RESPONSIVE: SMARTPHONE ******/
+@media screen and (min-width: 480px) {
+
+    /* GENERIC UI */
+
+    /* HEADER */
+
+    /* MAIN CONTENT */
+    
+    #sideBar{
+        width: 230px;
+    }
+
+}
+
+
+/****** MD - RESPONSIVE: TABLET ******/
+@media screen and (min-width: 768px) {
+
+    /* GENERIC UI */
+
+    /* HEADER */
+
+    /* MAIN CONTENT */
+   
+
+}
+
+
+/****** LG - RESPONSIVE: DESKTOP ******/
+@media screen and (min-width: 992px) {
+
+    /* GENERIC UI */
+
+    /* HEADER */
+
+    /* MAIN CONTENT */
+  
+
+}
+
+
+/****** XL - RESPONSIVE: LARGE DESKTOP ******/
+@media screen and (min-width: 1201px) {
+    
+    /* GENERIC UI */
+
+    /* HEADER */
+
+    /* MAIN CONTENT */
+}
