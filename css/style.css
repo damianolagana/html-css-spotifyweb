@@ -18,6 +18,10 @@ body{
     color: white;
 }
 
+.w100{
+    width: 100%;
+}
+
 /****** FLEX *****/
 
 .flex{
@@ -96,6 +100,22 @@ main{
    font-weight: bolder;
 }
 
+#sectionRecentlyPlayed h2{
+    margin-bottom: 1rem;
+}
+
+#sectionRecentlyPlayed{
+    padding: 1rem 1rem;
+}
+
+.boxCards{
+    gap: 1rem;
+}
+
+.card{
+    width: calc(50% - 1rem)
+}
+
 
 
 /* FOOTER */
@@ -136,7 +156,11 @@ footer{
     /* MAIN CONTENT */
     #mainContent > nav li{
         width: calc(100% / 5);
-    }    
+    }  
+    
+    .card{
+        width: calc(100% / 4 - 1rem)
+    }
 }
 
 
@@ -154,7 +178,11 @@ footer{
     
     #mainContent > nav > ul{
         width: 70%;
-    }    
+    }  
+    
+    .card{
+        width: calc(100% / 6 - 1rem)
+    }
 
 }
 
