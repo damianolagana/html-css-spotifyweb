@@ -10,12 +10,6 @@ body{
     font-family: sans-serif;
 }
 
-/****** FLEX *****/
-
-.flex{
-    display: flex;
-}
-
 .h100{
     height: 100%;
 }
@@ -24,6 +18,29 @@ body{
     color: white;
 }
 
+/****** FLEX *****/
+
+.flex{
+    display: flex;
+}
+
+.flexWrap{
+    flex-wrap: wrap;
+}
+
+.justifyCenter{
+    justify-content: center;
+}
+
+.justifySB{
+    justify-content: space-between;
+}
+
+/******* PADDING ********/
+
+.padding1rem{
+    padding: 1rem;
+}
 
 /* ****** XS - MOBILE FIRST ******/ 
 
@@ -61,6 +78,26 @@ main{
     padding-top: 90px;
 }
 
+#mainContent > nav > ul{
+    list-style-type: none;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+#mainContent > nav li{
+    width: calc(100% / 4);
+    text-align: center;
+    padding: 0.5rem;
+}
+
+#mainContent > nav a{
+   text-decoration: none;
+   font-size: 9px;
+   font-weight: bolder;
+}
+
+
+
 /* FOOTER */
 
 footer{
@@ -83,6 +120,9 @@ footer{
         width: 230px;
     }
 
+    #mainContent > nav li{
+        width: calc(100% / 3);
+    }    
 }
 
 
@@ -94,8 +134,9 @@ footer{
     /* HEADER */
 
     /* MAIN CONTENT */
-   
-
+    #mainContent > nav li{
+        width: calc(100% / 5);
+    }    
 }
 
 
@@ -107,7 +148,13 @@ footer{
     /* HEADER */
 
     /* MAIN CONTENT */
-  
+    #mainContent > nav li{
+        width: calc(100% / 6);
+    }  
+    
+    #mainContent > nav > ul{
+        width: 70%;
+    }    
 
 }
 
